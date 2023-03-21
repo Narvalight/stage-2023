@@ -24,3 +24,36 @@
     border-radius: 8px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.statistics{
+    font-size: 25px;
+    background: #A3CFBB;
+    border-radius: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.stat-blue{
+    background: #17A2B8;
+    border-radius: 2px 0px 0px 2px;;
+    width:880px;
+    height: 30px;
+}
+.stat-red{
+    background: #DC3545;
+    border-radius: 2px 0px 0px 2px;
+    width: 1140px;
+    height: 30px;
+}
+.text-center{
+    text-align: center;
+}
+.stat-yellow{
+    background: #FFC107;
+    border-radius: 2px 0px 0px 2px;
+    width: 940px;
+    height: 30px;
+}
+.stat-green{
+    background: #28A745;
+    border-radius: 2px 0px 0px 2px;
+    width: 1220px;
+    height: 30px;
+}
