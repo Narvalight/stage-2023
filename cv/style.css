@@ -1,59 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
 .first-block {
     background: #FFDA6A;
     border-radius: 8px;
-    font-size: 35px;
+    font-size: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     line-height: 0.8;
+    padding: 8px;
 }
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    justify-content: space-between
+  }
+  .flex-container-n°2{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    justify-content: space-between
+  }
+  
 .text-left {
     text-align: left;
 }
+
 .text-right {
     text-align: right;
 }
+
 .text-size-description {
-    font-size: 30px;
+    font-size: 20px;
     text-align: justify;
     background: #FFF3CD;
     border-radius: 8px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 8px;
 }
+
 .text-size-paragraph {
-    font-size: 35px;
+    font-size: 25px;
     background: #FFE5D0;
     border-radius: 8px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 8px;
 }
-.statistics{
-    font-size: 25px;
+
+.statistics {
+    font-size: 20px;
     background: #A3CFBB;
     border-radius: 8px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 8px;
 }
-.stat-blue{
+
+.stat-blue {
     background: #17A2B8;
-    border-radius: 30px;;
-    width:880px;
-    height: 30px;
+    border-radius: 30px;
+    ;
+    width: 880px;
+    height: 20px;
+    padding: 8px;
 }
-.stat-red{
+
+.stat-red {
     background: #DC3545;
     border-radius: 30px;
     width: 1140px;
-    height: 30px;
+    height: 20px;
+    padding: 8px;
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
-.stat-yellow{
+
+.stat-yellow {
     background: #FFC107;
     border-radius: 30px;
     width: 940px;
-    height: 30px;
+    height: 20px;
+    padding: 8px;
 }
-.stat-green{
+
+.stat-green {
     background: #28A745;
     border-radius: 30px;
     width: 1220px;
-    height: 30px;
+    height: 20px;
+    padding: 8px;
+}
+
+.page-web {
+    border-radius: 30px;
+    min-width: 600px;
+    max-width: 1200px;
+    height: 900px;
+    margin: 0 auto;
+    padding: 8px;
 }
