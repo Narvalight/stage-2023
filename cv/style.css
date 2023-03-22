@@ -16,109 +16,100 @@
     text-align: center;
 }
 
-.text-size-description {
-    font-size: 20px;
-    text-align: justify;
-    background: #FFF3CD;
+.border-radius-text {
     border-radius: 8px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 8px;
 }
 
-.text-size-paragraph {
-    font-size: 25px;
-    background: #FFE5D0;
-    border-radius: 8px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 8px;
-}
-
-/* Classes de structure */
-
-.page-web {
-    border-radius: 30px;
-    min-width: 600px;
-    max-width: 1200px;
-    height: 900px;
-    margin: 0 auto;
-    padding: 8px;
-}
-
-.first-block {
-    background: #FFDA6A;
-    border-radius: 8px;
-    font-size: 25px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    line-height: 0.4;
-    padding: 8px;
-}
-
-.flex-container {
+.flex-space-between {
     display: flex;
     flex-direction: row;
     flex: auto;
     justify-content: space-between
-  }
-
-.statistics {
-    font-size: 20px;
-    background: #A3CFBB;
-    border-radius: 8px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 16px;
 }
 
-.flex-container-stats {
+.flex-center {
     display: flex;
     flex-direction: row;
     flex: auto;
     justify-content: center
 }
 
+/* Classes de structure */
+
+.stat-color-bars {
+    border-radius: 30px 0px 0px 30px;
+    height: 20px;
+    line-height: 100%;
+}
+
+.block-paragraph {
+    font-size: 25px;
+    background: #FFE5D0;
+    padding: 8px;
+}
+
+.block-description {
+    font-size: 20px;
+    text-align: justify;
+    background: #FFF3CD;
+    padding: 8px;
+}
+
+.page-web {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    min-width: 600px;
+    max-width: 1200px;
+    height: 900px;
+    margin: 0 auto;
+}
+
+.block {
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.first-block {
+    background: #FFDA6A;
+    font-size: 25px;
+    line-height: 0.4;
+    padding: 16px;
+}
+
+.statistics {
+    font-size: 20px;
+    background: #A3CFBB;
+    padding: 16px;
+}
+
 .stats-grey {
     background: #DEE2E6;
     border-radius: 30px;
     width: 100%;
-    height: 20px;
-    line-height: 0;
+    height: 26px;
     margin: 10px;
 }
 
 .stat-blue {
     background: #17A2B8;
     width: 69%;
-
-
-
-    border-radius: 30px 0px 0px 30px;
-    height: 20px;
-    padding: 8px;
-    line-height: 0;
+    height: 100%;
 }
 
 .stat-red {
     background: #DC3545;
-    border-radius: 30px 0px 0px 30px;
     width: 87%;
-    height: 20px;
-    padding: 8px;
-    line-height: 0;
+    height: 100%;
+
 }
 
 .stat-yellow {
     background: #FFC107;
-    border-radius: 30px 0px 0px 30px;
     width: 83%;
-    height: 20px;
-    padding: 8px;
-    line-height: 0;
+    height: 100%;
 }
 
 .stat-green {
     background: #28A745;
-    border-radius: 30px 0px 0px 30px;
     width: 92%;
-    height: 20px;
-    padding: 8px;
-    line-height: 0;
+    height: 100%;
 }
