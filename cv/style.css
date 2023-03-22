@@ -61,6 +61,7 @@
     max-width: 1200px;
     height: 900px;
     margin: 0 auto;
+    padding: 10px;
 }
 
 .block {
@@ -73,6 +74,11 @@
     font-size: 25px;
     line-height: 0.4;
     padding: 16px;
+}
+
+.identity-photo {
+    width: 10%;
+    height: 10%;
 }
 
 .statistics {
