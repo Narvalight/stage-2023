@@ -79,6 +79,14 @@
 .identity-photo {
     width: 10%;
     height: 10%;
+    border-radius: 50%;
+}
+
+.identity-photo:active {
+    transition: all, 500ms;
+    translate: 40% 40%;
+    height: 60%;
+    width: 60%;
 }
 
 .statistics {
@@ -93,6 +101,12 @@
     width: 100%;
     height: 26px;
     margin: 10px;
+    border: transparent 3px;
+    transition: border-color 500ms;
+}
+
+.stats-grey:hover {
+    border-color: #495057;
 }
 
 .stat-blue {
