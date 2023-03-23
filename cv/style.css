@@ -105,14 +105,24 @@
     transition: border-color 1s;
 }
 
-.stats-grey:hover {
-    border-color: #495057;
-}
-
 .stat-blue {
     background: #17A2B8;
     width: 69%;
     height: 100%;
+}
+
+.stat-blue-border {
+    background: #DEE2E6;
+    border-radius: 30px;
+    width: 100%;
+    height: 26px;
+    margin: 10px;
+    border: 3px solid transparent;
+    transition: border-color 1s;
+}
+
+.stat-blue-border:hover {
+    border: 3px solid #0e6977;
 }
 
 .stat-red {
@@ -122,14 +132,56 @@
 
 }
 
+.stat-red-border {
+    background: #DEE2E6;
+    border-radius: 30px;
+    width: 100%;
+    height: 26px;
+    margin: 10px;
+    border: 3px solid transparent;
+    transition: border-color 1s;
+}
+
+.stat-red-border:hover {
+    border: 3px solid #971a26;
+}
+
 .stat-yellow {
     background: #FFC107;
     width: 83%;
     height: 100%;
 }
 
+.stat-yellow-border {
+    background: #DEE2E6;
+    border-radius: 30px;
+    width: 100%;
+    height: 26px;
+    margin: 10px;
+    border: 3px solid transparent;
+    transition: border-color 1s;
+}
+
+.stat-yellow-border:hover {
+    border: 3px solid #aa7f00;
+}
+
 .stat-green {
     background: #28A745;
     width: 92%;
     height: 100%;
+}
+
+.stat-green-border {
+    background: #DEE2E6;
+    border-radius: 30px;
+    width: 100%;
+    height: 26px;
+    margin: 10px;
+    border: 3px solid transparent;
+    transition: border-color 1s;
+}
+
+.stat-green-border:hover {
+    border: 3px solid #196c2c;
 }
