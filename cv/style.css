@@ -69,6 +69,16 @@
     padding: 8px;
 }
 
+.block-move {
+    border-radius: 8px;
+    padding: 8px;
+    transition: margin-left 500ms;
+}
+
+.block-move:hover {
+    margin-left: +20px;
+}
+
 .first-block {
     background: #FFDA6A;
     font-size: 25px;
