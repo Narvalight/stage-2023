@@ -8,69 +8,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cv Web 2023 Tristan Blain</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="lightbox.css">
 </head>
 
 <body class="page-web">
-    <div class="block first-block">
-        <img class="identity-photo identity-photo:active"
-            src="PromptMeUp_15_years_old_student_identity_picture_male_brown_hai_34bdc2cc-14f3-45f2-a5f2-7da792c80dbf.png">
-        <div class="flex-space-between">
-            <p class="text-left">Tristan Blain</p>
-            <p class="text-right">Adresse :<a
-                    href=https://www.google.com/maps/place/Rue+Edgar+Caiveau,+85300+Challans/@46.849763,-1.8913981,17z/data=!4m15!1m8!3m7!1s0x4805ab9e476f057d:0x9be807eb2f147b64!2sRue+Edgar+Caiveau,+85300+Challans!3b1!8m2!3d46.8497594!4d-1.8892041!16s%2Fg%2F11mw7r43n_!3m5!1s0x4805ab9e476f057d:0x9be807eb2f147b64!8m2!3d46.8497594!4d-1.8892041!16s%2Fg%2F11mw7r43n_
-                    target="_blank">1 rue Edgar Caiveau</a> </a></p>
-        </div>
-        <div class="flex-space-between">
-            <p class="text-left">Lycéen</p>
-            <p class="text-right">Mail : <a
-                    href="https://mail.google.com/mail/u/0/?pli=1#inbox?compose=CllgCKCBkLgVfMCVMpBhHpMCJrbcrwcjQDKnRsxJbMdNqRxJvGbZvLbSCwmdkTcnhzXgZqFDDVB"
-                    target="_blank">tristan.blain85@gmail.com</a></p>
+    <a class="lightbox" href="#" id="photo">
+        <picture
+            style="background-image: url('PromptMeUp_15_years_old_student_identity_picture_male_brown_hai_34bdc2cc-14f3-45f2-a5f2-7da792c80dbf.png')">
+        </picture>
+    </a>
+    <header class="container">
+        <div class="block first-block">
+            <a href="#photo">
+                <img class="identity-photo"
+                    src="PromptMeUp_15_years_old_student_identity_picture_male_brown_hai_34bdc2cc-14f3-45f2-a5f2-7da792c80dbf.png">
+            </a>
+            <div class="flex-space-between">
+                <p class="text-left">Tristan Blain</p>
+                <p class="text-right">Adresse : <a
+                        href=https://www.google.com/maps/place/Rue+Edgar+Caiveau,+85300+Challans/@46.849763,-1.8913981,17z/data=!4m15!1m8!3m7!1s0x4805ab9e476f057d:0x9be807eb2f147b64!2sRue+Edgar+Caiveau,+85300+Challans!3b1!8m2!3d46.8497594!4d-1.8892041!16s%2Fg%2F11mw7r43n_!3m5!1s0x4805ab9e476f057d:0x9be807eb2f147b64!8m2!3d46.8497594!4d-1.8892041!16s%2Fg%2F11mw7r43n_
+                        target="_blank">1 rue Edgar Caiveau</a> </a></p>
 
+            </div>
+            <div class="flex-space-between">
+                <p class="text-left">Lycéen</p>
+                <p class="text-right">Mail : <a href="mailto:tristan.blain85@gmail.com"
+                        target="_blank">tristan.blain85@gmail.com</a></p>
+            </div>
         </div>
-    </div>
-    <div class="overflow">
-        <p class="block-move block-description">Je m'appelle Tristan Blain, je suis en seconde au lycée
+    </header>
+    <main class="container container-overflow">
+        <p class="block moving-block block-description">Je m'appelle Tristan Blain, je suis en seconde au lycée
             Notre-Dame à Challans, je
             suis quelqu'un de sérieux, motivé et investi. Je suis curieux et adore apprendre de nouvelles choses. Je
             suis
             sociable et apprécie travailler en travail de groupe. J'ai une passion générale pour les sciences et
             l'informatique. </p>
-        <p class="block-move block block-paragraph">Février 2020 : Obtention de l'ASSR 1</p>
-        <p class="block-move block-paragraph">2020-2022 : Classe d'ouverture à l'international.</p>
-        <p class="block-move block-paragraph">Avril 2021 : Obtention de l'ASSR 2</p>
-        <p class="block-move block-paragraph">Mars 2022 : Stage d'observation dans l'entreprise <a
+        <p class="block moving-block block block-paragraph">Février 2020 : Obtention de l'ASSR 1</p>
+        <p class="block moving-block block-paragraph">2020-2022 : Classe d'ouverture à l'international.</p>
+        <p class="block moving-block block-paragraph">Avril 2021 : Obtention de l'ASSR 2</p>
+        <p class="block moving-block block-paragraph">Mars 2022 : Stage d'observation dans l'entreprise <a
                 href="https://jack.fr" target="_blank">Jack In The Box</a></p>
-        <p class="block-move block-paragraph">Juillet 2022 : Brevet des collèges, mention "Très Bien".
+        <p class="block moving-block block-paragraph">Juillet 2022 : Brevet des collèges, mention "Très Bien".
         </p>
-        <p class="block-move block-paragraph">Mars 2023 : Stage d'observation dans l'entreprise <a
+        <p class="block moving-block block-paragraph">Mars 2023 : Stage d'observation dans l'entreprise <a
                 href="https://jack.fr" target="_blank">Jack In The Box</a></p>
-    </div>
-    <div class=" block statistics text-center ">
-        <div class="flex-center text-center">
-            <div class="stats-grey stat-blue-border">
-                <div class="stat-blue stat-color-bars">
-                    Sociable : 69%
+    </main>
+    <footer class="container">
+        <div class="block statistics text-center">
+            <div class="flex-center text-center">
+                <div class="stats-grey stat-blue-border">
+                    <div class="stat-blue stat-color-bars">
+                        Sociable : 69%
+                    </div>
+                </div>
+                <div class="stats-grey stat-red-border">
+                    <div class="stat-red stat-color-bars">
+                        Sérieux : 87%
+                    </div>
                 </div>
             </div>
-            <div class="stats-grey stat-red-border">
-                <div class="stat-red stat-color-bars">
-                    Sérieux : 87%
+            <div class="flex-center text-center">
+                <div class="stats-grey stat-yellow-border">
+                    <div class="stat-yellow stat stat-color-bars">
+                        Ouvert d'esprit : 83%
+                    </div>
+                </div>
+                <div class="stats-grey stat-green-border">
+                    <div class="stat-green stat-color-bars">
+                        Logique : 92%
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="flex-center text-center">
-            <div class="stats-grey stat-yellow-border">
-                <div class="stat-yellow stat stat-color-bars">
-                    Ouvert d'esprit : 83%
-                </div>
-            </div>
-            <div class="stats-grey stat-green-border">
-                <div class="stat-green stat-color-bars">
-                    Logique : 92%
-                </div>
-            </div>
-        </div>
-    </div>
+    </footer>
 </body>
 
 </html>
