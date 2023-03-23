@@ -50,7 +50,6 @@
 
 .block-description {
     font-size: 20px;
-    text-align: justify;
     background: #FFF3CD;
     padding: 8px;
 }
@@ -70,13 +69,16 @@
 }
 
 .block-move {
+    overflow-x: hidden;
+    left: 0px;
     border-radius: 8px;
     padding: 8px;
-    transition: margin-left 500ms;
+    position: relative;
+    transition: left 500ms;
 }
 
 .block-move:hover {
-    margin-left: +20px;
+    left: 20px;
 }
 
 .first-block {
