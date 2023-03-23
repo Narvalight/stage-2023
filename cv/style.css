@@ -101,8 +101,8 @@
     width: 100%;
     height: 26px;
     margin: 10px;
-    border: transparent 3px;
-    transition: border-color 500ms;
+    border: 3px solid transparent;
+    transition: border-color 1s;
 }
 
 .stats-grey:hover {
