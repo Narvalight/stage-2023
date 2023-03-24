@@ -20,11 +20,6 @@
     border-radius: 8px;
 }
 
-/* .overflow:hover {
-    overflow-x: hidden;
-} */
-
-
 .flex-space-between {
     display: flex;
     flex-direction: row;
@@ -59,6 +54,10 @@
     margin: 0 auto;
 }
 
+.container-overflow {
+    overflow-x: hidden;
+}
+
 .block {
     margin: 10px auto;
     padding: 8px;
@@ -78,16 +77,11 @@
     border-radius: 50%;
 }
 
-.container-overflow {
-    overflow-x: hidden;
-}
-
 .block-description {
     font-size: 20px;
     background: #FFF3CD;
     padding: 8px;
 }
-
 
 .block-paragraph {
     font-size: 25px;
@@ -105,16 +99,10 @@
     left: 20px;
 }
 
-.statistics {
+.block-statistics {
     font-size: 20px;
     background: #A3CFBB;
     padding: 16px;
-}
-
-.stat-color-bars {
-    border-radius: 30px 0px 0px 30px;
-    height: 20px;
-    line-height: 100%;
 }
 
 .stats-grey {
@@ -127,14 +115,32 @@
     transition: border-color 500ms;
 }
 
+.stat-blue-border:hover {
+    border-color: #0e6977;
+}
+
+.stat-red-border:hover {
+    border-color: #971a26;
+}
+
+.stat-yellow-border:hover {
+    border-color: #aa7f00;
+}
+
+.stat-green-border:hover {
+    border-color: #196c2c;
+}
+
+.stat-color-bars {
+    border-radius: 30px 0px 0px 30px;
+    height: 20px;
+    line-height: 100%;
+}
+
 .stat-blue {
     background: #17A2B8;
     width: 69%;
     height: 100%;
-}
-
-.stat-blue-border:hover {
-    border-color: #0e6977;
 }
 
 .stat-red {
@@ -144,26 +150,14 @@
 
 }
 
-.stat-red-border:hover {
-    border-color: #971a26;
-}
-
 .stat-yellow {
     background: #FFC107;
     width: 83%;
     height: 100%;
 }
 
-.stat-yellow-border:hover {
-    border-color: #aa7f00;
-}
-
 .stat-green {
     background: #28A745;
     width: 92%;
     height: 100%;
-}
-
-.stat-green-border:hover {
-    border-color: #196c2c;
 }
