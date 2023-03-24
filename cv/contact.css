@@ -20,6 +20,7 @@ textarea:focus {
 }
 
 /* Classes de structure : */
+
 .form {
     display: block;
     margin: 10px auto;
@@ -39,6 +40,20 @@ textarea:focus {
 .container>* {
     min-width: 600px;
     max-width: 1000px;
+}
+
+.validate {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 10px;
+    background: #D1E7DD;
+    border: 1px solid #75B798;
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
 .form-field {
