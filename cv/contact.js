@@ -1,6 +1,6 @@
 const validate = document.querySelector('#validate');
 
-if (document.location.search.indexOf('merci')) {
+if (document.location.search.indexOf('merci') > -1) {
     validate.classList.add('visible');
     window.setTimeout(
         function () {
